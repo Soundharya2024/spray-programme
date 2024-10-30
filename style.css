@@ -1,0 +1,135 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    font-family: "Poppins" !important;
+}
+
+.fs-5-6 {
+    font-size: 1.05rem;
+}
+
+.main-container {
+    margin: 24px;
+    width: 90%;
+}
+
+.main-container .header{
+    width: 85%;
+}
+
+.main-container .header .title-container .logo-container .company-name {
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-container .header .title-container .logo-container hr {
+    width: 60%;
+}
+
+.main-container .header .info {
+    font-size: 10px;
+}
+
+.order-6 {
+    order: 6 !important;
+}
+
+.order-7 {
+    order: 7 !important;
+}
+
+.order-8 {
+    order: 8 !important;
+}
+
+.order-9 {
+    order: 9 !important;
+}
+
+.order-10 {
+    order: 10 !important;
+}
+
+.order-11 {
+    order: 11 !important;
+}
+
+@media (min-width: 576px) {
+    .order-sm-6 {
+        order: 6 !important;
+    }
+    .order-sm-7 {
+        order: 7 !important;
+    }
+    .order-sm-8 {
+        order: 8 !important;
+    }
+    .order-sm-9 {
+        order: 9 !important;
+    }
+    .order-sm-10 {
+        order: 10 !important;
+    }
+    .order-sm-11 {
+        order: 11 !important;
+    }
+    .field-title.w-sm-80 {
+        width: 80% !important;
+    }
+    .w-sm-110 {
+        width: 110% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .order-md-6 {
+        order: 6 !important;
+    }
+    .order-md-7 {
+        order: 7 !important;
+    }
+    .order-md-8 {
+        order: 8 !important;
+    }
+    .order-md-9 {
+        order: 9 !important;
+    }
+    .order-md-10 {
+        order: 10 !important;
+    }
+    .order-md-11 {
+        order: 11 !important;
+    }
+    .field-title.w-md-65 {
+        width: 65% !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .order-lg-6 {
+        order: 6 !important;
+    }
+    .order-lg-7 {
+        order: 7 !important;
+    }
+    .order-lg-8 {
+        order: 8 !important;
+    }
+    .order-lg-9 {
+        order: 9 !important;
+    }
+    .order-lg-10 {
+        order: 10 !important;
+    }
+    .order-lg-11 {
+        order: 11 !important;
+    }
+    .field-title.w-lg-50 {
+        width: 50% !important;
+    }
+    .field-title.w-lg-70 {
+        width: 70% !important;
+    }
+}
