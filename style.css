@@ -7,29 +7,15 @@ body {
 }
 
 .fs-5-6 {
-    font-size: 1.05rem;
+    font-size: 1.05rem !important;
 }
 
-.main-container {
-    margin: 24px;
-    width: 90%;
+.mb-6 {
+    margin-bottom: 6rem;
 }
 
-.main-container .header{
-    width: 85%;
-}
-
-.main-container .header .title-container .logo-container .company-name {
-    letter-spacing: 3px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.main-container .header .title-container .logo-container hr {
-    width: 60%;
-}
-
-.main-container .header .info {
-    font-size: 10px;
+.text-tranformation-none {
+    text-transform: none !important;
 }
 
 .order-6 {
@@ -54,6 +40,96 @@ body {
 
 .order-11 {
     order: 11 !important;
+}
+
+.container-width-90 {
+    width: 90% !important;
+}
+
+.container-width-100 {
+    width: 100% !important;
+}
+
+.main-container {
+    margin: 24px;
+}
+
+.main-container .header{
+    width: 85%;
+}
+
+.main-container .header .title-container .logo-container .company-name {
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-container .header .title-container .logo-container hr {
+    width: 60%;
+}
+
+.main-container .header .info {
+    font-size: 10px;
+}
+
+.main-container #orchard-section #orchard-table thead tr th{
+    background-color: #B6D7A8;
+}
+
+.main-container #orchard-section #orchard-table tfoot tr td {
+    background-color: #D9D9D9;
+}
+
+.main-container #chemical-section .chemical-sub-section .chemical-sub-section-title {
+    background-color: #D5D5D5;
+}
+
+.main-container #chemical-section .chemical-sub-section .table thead tr th {
+    background-color: #E9D1DF;
+}
+
+.main-container #tractor-calibration-table thead tr th {
+    background-color: #D4E1F4;
+}
+
+.main-container .footer .section-1-2 {
+    width: 80%;
+}
+
+.main-container .footer .section-1-2 #section-1>div:first-child {
+    width: 20rem;
+}
+
+.main-container .footer .section-1-2 #section-1>div:nth-child(2), .main-container .footer .section-1-2 #section-2>div:nth-child(2) {
+    width: 40rem;
+}
+
+.main-container .footer .section-1-2 #section-1>div:nth-child(2)>div:first-child {
+    width: 5rem;
+}
+
+.main-container .footer .section-1-2 #section-1>div:nth-child(2)>div:nth-child(2) {
+    width: 13rem;
+}
+
+.main-container .footer .section-1-2 #section-1>div:nth-child(2)>div:last-child {
+    width: 13rem;
+}
+
+.main-container .footer .section-1-2 #section-1>div>div>span:first-child {
+    height: 18px;
+}
+
+.main-container .footer .section-1-2 #section-2 {
+    margin-top: 2rem;
+}
+
+.main-container .footer .section-1-2 #section-2>div:last-child>div:last-child {
+    width: 13rem;
+}
+
+.main-container .footer .section-1-2 #section-2 .img-container {
+    height: 30px;
+    width: 30px;
 }
 
 @media (min-width: 576px) {
@@ -131,5 +207,51 @@ body {
     }
     .field-title.w-lg-70 {
         width: 70% !important;
+    }
+}
+
+@media (max-width: 670px) {
+    .main-container .footer {
+        flex-direction: column;
+    }
+    .main-container .footer .section-1-2 {
+        width: 100%;
+    }
+    .main-container .footer .section-1-2 #section-1{
+        flex-direction: column;
+    }
+    .main-container .footer .section-1-2 #section-1>div:nth-child(2) {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+    .main-container .footer .section-1-2 #section-2>div:first-child {
+        width: 16rem;
+    }
+    .main-container .footer .section-1-2 #section-2>div:nth-child(2) {
+        margin-left: 3rem;
+    }
+    .main-container .footer #section-3 {
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 670px) and (max-width: 992px) {
+    .main-container .footer .section-1-2 #section-1{
+        flex-direction: column;
+        height: 8rem;
+    }
+    .main-container .footer .section-1-2 #section-1>div {
+        align-self: flex-start;
+    }
+    .main-container .footer .section-1-2 #section-2 {
+        margin-top: 3rem;
+        justify-content: flex-start !important;
+    }
+    .main-container .footer .section-1-2 #section-2>div:nth-child(2) {
+        width: 25rem;
+        margin-left: 2rem;
+    }
+    .main-container .footer #section-3 {
+        width: 20%;
     }
 }

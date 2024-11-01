@@ -11,58 +11,417 @@
 </head>
 <body>
     <div class="main-container">
-        <div class="header mb-3">
-            <div class="title-container d-flex align-items-center">
-                <div class="logo-container d-flex flex-column align-items-center">
-                    <img src="logo.png" alt="logo" width="40px" height="40px">
-                    <span class="company-name text-uppercase">Errigal</span>
-                    <hr class="m-0">
+        <div class="container-width-90">
+            <div class="header ms-1 mb-3">
+                <div class="title-container d-flex align-items-center">
+                    <div class="logo-container d-flex flex-column align-items-center">
+                        <img src="imgs/errigal-logo.png" alt="eerigal logo" width="40px" height="40px">
+                        <span class="company-name text-uppercase">Errigal</span>
+                        <hr class="m-0">
+                    </div>
+                    <div class="d-flex flex-grow-1 justify-content-center">
+                        <span class="title text-uppercase fs-5 fw-bold">Spray Programme</span>
+                    </div>
                 </div>
-                <div class="d-flex flex-grow-1 justify-content-center">
-                    <span class="title text-uppercase fs-5 fw-bold">Spray Programme</span>
+                <p class="info my-4">This programme has been prepared by Jaco Botha from Laeveld Agrochem for Errigal Farm. Please follow the instructions below and if you have any questions, ask Gert or Jaco before starting.</p>
+                <div class="row gx-5 w-sm-110">
+                    <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-1 order-md-1 order-lg-1 order-1 d-inline-flex justify-content-start">
+                        <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Program Date</span><span class="field-data">27/11/2023</span>
+                    </div>
+                    <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-2 order-md-2 order-lg-2 order-3 d-inline-flex justify-content-start">
+                        <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Longest PHI</span><span class="field-data">28</span>
+                    </div>
+                    <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-5 order-md-5 order-lg-3 order-5 d-inline-flex justify-content-start">
+                        <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-50 flex-shrink-0">Temp Today</span><span class="field-data"></span>
+                    </div>
+                    <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-3 order-md-3 order-lg-4 order-2 d-inline-flex justify-content-start">
+                        <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Recommended Spray Date</span><span class="field-data">01/12/2023</span>
+                    </div>
+                    <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-4 order-md-4 order-lg-5 order-4 d-inline-flex justify-content-start">
+                        <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Longest PHI Release Date</span><span class="field-data">01/04/2024</span>
+                    </div>
+                    <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-6 order-md-6 order-lg-6 order-6 d-inline-flex justify-content-start">
+                        <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-50 flex-shrink-0">Wind:</span><span class="field-data"></span>
+                    </div>
+                    <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-7 order-md-7 order-lg-7 order-7 d-inline-flex justify-content-start mt-2 mt-sm-2 mt-md-2 mt-lg-2">
+                        <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Spray Date - Start</span><span class="field-data"></span>
+                    </div>
+                    <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-8 order-md-8 order-lg-8 order-9 d-inline-flex justify-content-start mt-sm-2 mt-md-2 mt-lg-2">
+                        <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Start Time</span><span class="field-data"></span>
+                    </div>
+                    <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-11 order-md-11 order-lg-9 order-11 d-inline-flex justify-content-start mt-lg-2">
+                        <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-50 flex-shrink-0">Week No:</span><span class="field-data">45</span>
+                    </div>
+                    <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-9 order-md-9 order-lg-10 order-8 d-inline-flex justify-content-start">
+                        <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Spray Date - Finish</span><span class="field-data"></span>
+                    </div>
+                    <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-10 order-md-10 order-lg-11 order-10 d-inline-flex justify-content-start">
+                        <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Finish Time</span><span class="field-data"></span>
+                    </div>
                 </div>
             </div>
-            <p class="info my-4">This programme has been prepared by Jaco Botha from Laeveld Agrochem for Errigal Farm. Please follow the instructions below and if you have any questions, ask Gert or Jaco before starting.</p>
-            <div class="row gx-5 w-sm-110">
-                <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-1 order-md-1 order-lg-1 order-1 d-inline-flex justify-content-start">
-                    <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Program Date</span><span class="field-data">27/11/2023</span>
+            <div id="orchard-section" class="mb-5">
+                <span class="section-title text-uppercase fs-5-6 fw-bold d-inline-block w-100 border-1 border-bottom border-black ps-1 mb-4">orchard information</span>
+                <table id="orchard-table" class="w-100 table table-bordered border-black table-responsive align-middle">
+                    <thead class="text-capitalize text-center align-middle">
+                        <tr>
+                            <th class="fw-semibold">fruit type</th>
+                            <th class="fw-semibold">varietal</th>
+                            <th class="fw-semibold">block no</th>
+                            <th class="fw-semibold text-tranformation-none">Area (hectares)</th>
+                            <th colspan="2" class="fw-semibold">growth stage</th>
+                            <th class="fw-semibold">target</th>
+                            <th class="fw-semibold">% area spray</th>
+                            <th class="fw-semibold text-uppercase">trv</th>
+                            <th class="fw-semibold">row width</th>
+                            <th class="fw-semibold">start time</th>
+                            <th class="fw-semibold">end time</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-capitalize text-center">
+                        <tr>
+                            <td>apples</td>
+                            <td>brae burn</td>
+                            <td class="text-uppercase">2c</td>
+                            <td>0.24</td>
+                            <td colspan="2">bud break</td>
+                            <td>leaves</td>
+                            <td>100%</td>
+                            <td></td>
+                            <td>4 meters</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>apples</td>
+                            <td>pink lady</td>
+                            <td class="text-uppercase">5w</td>
+                            <td>0.78</td>
+                            <td colspan="2">bud break</td>
+                            <td>leaves</td>
+                            <td>100%</td>
+                            <td></td>
+                            <td>4 meters</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="12" class="border-0"></td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="text-capitalize text-center">
+                        <tr>
+                            <td></td>
+                            <td class="fw-semibold">total</td>
+                            <td>2</td>
+                            <td>1.02</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div id="chemical-section" class="mb-5">
+                <span class="section-title text-uppercase fs-5-6 fw-bold d-inline-block w-100 border-1 border-bottom border-black ps-1 mb-4">chemical information</span>
+                <div id="first-chemical-section" class="chemical-sub-section">
+                    <span class="chemical-sub-section-title text-uppercase fs-5-6 fw-bold d-inline-block w-100 p-1 mb-3">first chemical</span>
+                    <table class="product-table w-100 table table-bordered border-black table-responsive align-middle mb-4">
+                        <thead class="text-capitalize text-center align-middle">
+                            <tr>
+                                <th class="fw-semibold">product number</th>
+                                <th class="fw-semibold">product name</th>
+                                <th class="fw-semibold">active ingredient</th>
+                                <th class="fw-semibold">reason for spraying</th>
+                                <th class="fw-semibold">product instructions</th>
+                                <th class="fw-semibold text-uppercase">phi</th>
+                                <th class="fw-semibold">PHI release date</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-capitalize text-center">
+                            <tr>
+                                <td>l10442</td>
+                                <td>calcium SC plus</td>
+                                <td>calcium 242g/ kg + zinc 18g/ kg</td>
+                                <td>bitterpit</td>
+                                <td class="text-tranformation-none">Apply according to label instructions.</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="chemical-table w-100 table table-bordered border-black table-responsive align-middle">
+                        <thead class="text-capitalize text-center align-middle">
+                            <tr>
+                                <th class="fw-semibold">chemical concentration</th>
+                                <th class="fw-semibold">dose / 100 l</th>
+                                <th class="fw-semibold">dose / 1000 l</th>
+                                <th class="fw-semibold">dose / hectare</th>
+                                <th class="fw-semibold">dosage unit</th>
+                                <th class="fw-semibold">total amount / product required</th>
+                                <th class="fw-semibold">unit / measurement</th>
+                                <th class="fw-semibold">unit / size</th>
+                                <th class="fw-semibold text-tranformation-none">Total No of Units Required</th>
+                                <th class="fw-semibold">expected litres / kg / hectare</th>
+                                <th class="fw-semibold">actual litres / kg / hectare</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr>
+                                <td>1.5</td>
+                                <td>150</td>
+                                <td>1500</td>
+                                <td>3560</td>
+                                <td>ml</td>
+                                <td>15</td>
+                                <td class="text-capitalize">litres</td>
+                                <td>20</td>
+                                <td>1</td>
+                                <td>20</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-2 order-md-2 order-lg-2 order-3 d-inline-flex justify-content-start">
-                    <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Longest PHI</span><span class="field-data">28</span>
+                <div id="second-chemical-section" class="chemical-sub-section">
+                    <span class="chemical-sub-section-title text-uppercase fs-5-6 fw-bold d-inline-block w-100 p-1 mb-3">second chemical</span>
+                    <table class="product-table w-100 table table-bordered border-black table-responsive align-middle mb-4">
+                        <thead class="text-capitalize text-center align-middle">
+                            <tr>
+                                <th class="fw-semibold">product number</th>
+                                <th class="fw-semibold">product name</th>
+                                <th class="fw-semibold">active ingredient</th>
+                                <th class="fw-semibold">reason for spraying</th>
+                                <th class="fw-semibold">product instructions</th>
+                                <th class="fw-semibold text-uppercase">phi</th>
+                                <th class="fw-semibold">PHI release date</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-capitalize text-center">
+                            <tr>
+                                <td>l10442</td>
+                                <td>calcium SC plus</td>
+                                <td>calcium 242g/ kg + zinc 18g/ kg</td>
+                                <td>bitterpit</td>
+                                <td class="text-tranformation-none">Apply according to label instructions.</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="chemical-table w-100 table table-bordered border-black table-responsive align-middle">
+                        <thead class="text-capitalize text-center align-middle">
+                            <tr>
+                                <th class="fw-semibold">chemical concentration</th>
+                                <th class="fw-semibold">dose / 100 l</th>
+                                <th class="fw-semibold">dose / 1000 l</th>
+                                <th class="fw-semibold">dose / hectare</th>
+                                <th class="fw-semibold">dosage unit</th>
+                                <th class="fw-semibold">total amount /</th>
+                                <th class="fw-semibold">unit / measurement</th>
+                                <th class="fw-semibold">unit / size</th>
+                                <th class="fw-semibold text-tranformation-none">Total No of Units</th>
+                                <th class="fw-semibold">expected litres / kg / hectare</th>
+                                <th class="fw-semibold">actual litres / kg / hectare</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr>
+                                <td>1.5</td>
+                                <td>150</td>
+                                <td>1500</td>
+                                <td>3560</td>
+                                <td>ml</td>
+                                <td>15</td>
+                                <td class="text-capitalize">litres</td>
+                                <td>20</td>
+                                <td>1</td>
+                                <td>20</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-5 order-md-5 order-lg-3 order-5 d-inline-flex justify-content-start">
-                    <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-50 flex-shrink-0">Temp Today</span><span class="field-data"></span>
-                </div>
-                <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-3 order-md-3 order-lg-4 order-2 d-inline-flex justify-content-start">
-                    <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Recommended Spray Date</span><span class="field-data">01/12/2023</span>
-                </div>
-                <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-4 order-md-4 order-lg-5 order-4 d-inline-flex justify-content-start">
-                    <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Longest PHI Release Date</span><span class="field-data">01/04/2024</span>
-                </div>
-                <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-6 order-md-6 order-lg-6 order-6 d-inline-flex justify-content-start">
-                    <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-50 flex-shrink-0">Wind:</span><span class="field-data"></span>
-                </div>
-                <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-7 order-md-7 order-lg-7 order-7 d-inline-flex justify-content-start mt-2 mt-sm-2 mt-md-2 mt-lg-2">
-                    <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Spray Date - Start</span><span class="field-data"></span>
-                </div>
-                <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-8 order-md-8 order-lg-8 order-9 d-inline-flex justify-content-start mt-sm-2 mt-md-2 mt-lg-2">
-                    <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Start Time</span><span class="field-data"></span>
-                </div>
-                <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-11 order-md-11 order-lg-9 order-11 d-inline-flex justify-content-start mt-lg-2">
-                    <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-50 flex-shrink-0">Week No:</span><span class="field-data">45</span>
-                </div>
-                <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-9 order-md-9 order-lg-10 order-8 d-inline-flex justify-content-start">
-                    <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Spray Date - Finish</span><span class="field-data"></span>
-                </div>
-                <div class="field-container col-12 col-sm-6 col-md-6 col-lg-4 order-sm-10 order-md-10 order-lg-11 order-10 d-inline-flex justify-content-start">
-                    <span class="field-title fw-semibold me-2 w-50 w-sm-80 w-md-65 w-lg-70 flex-shrink-0">Finish Time</span><span class="field-data"></span>
+                <div id="third-chemical-section" class="chemical-sub-section">
+                    <span class="chemical-sub-section-title text-uppercase fs-5-6 fw-bold d-inline-block w-100 p-1 mb-3">third chemical</span>
+                    <table class="product-table w-100 table table-bordered border-black table-responsive align-middle mb-4">
+                        <thead class="text-capitalize text-center align-middle">
+                            <tr>
+                                <th class="fw-semibold">product number</th>
+                                <th class="fw-semibold">product name</th>
+                                <th class="fw-semibold">active ingredient</th>
+                                <th class="fw-semibold">reason for spraying</th>
+                                <th class="fw-semibold">product instructions</th>
+                                <th class="fw-semibold text-uppercase">phi</th>
+                                <th class="fw-semibold">PHI release date</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-capitalize text-center">
+                            <tr>
+                                <td>l10442</td>
+                                <td>calcium SC plus</td>
+                                <td>calcium 242g/ kg + zinc 18g/ kg</td>
+                                <td>bitterpit</td>
+                                <td class="text-tranformation-none">Apply according to label instructions.</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="chemical-table w-100 table table-bordered border-black table-responsive align-middle">
+                        <thead class="text-capitalize text-center align-middle">
+                            <tr>
+                                <th class="fw-semibold">chemical concentration</th>
+                                <th class="fw-semibold">dose / 100 l</th>
+                                <th class="fw-semibold">dose / 1000 l</th>
+                                <th class="fw-semibold">dose / hectare</th>
+                                <th class="fw-semibold">dosage unit</th>
+                                <th class="fw-semibold">total amount / product required</th>
+                                <th class="fw-semibold">unit / measurement</th>
+                                <th class="fw-semibold">unit / size</th>
+                                <th class="fw-semibold text-tranformation-none">Total No of Units Required</th>
+                                <th class="fw-semibold">expected litres / kg / hectare</th>
+                                <th class="fw-semibold">actual litres / kg / hectare</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr>
+                                <td>1.5</td>
+                                <td>150</td>
+                                <td>1500</td>
+                                <td>3560</td>
+                                <td>ml</td>
+                                <td>15</td>
+                                <td class="text-capitalize">litres</td>
+                                <td>20</td>
+                                <td>1</td>
+                                <td>20</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
-        <div class="section-title text-uppercase fs-5-6 fw-bold w-100 border-1 border-bottom border-black mb-2">
-            <span class="section-title-text">Orchard Information</span>
+        <div class="container-width-100" class="w-100">
+            <div id="tractor-calibration-section" class="w-100 mb-6">
+                <span class="section-title text-uppercase fs-5-6 fw-bold d-inline-block w-100 border-1 border-bottom border-black ps-1 mb-4">tractor calibration</span>
+                <table id="tractor-calibration-table" class="w-100 table table-bordered border-black table-responsive align-middle">
+                    <thead class="text-capitalize text-center align-middle">
+                        <tr>
+                            <th class="fw-semibold">traktor type</th>
+                            <th class="fw-semibold">traktor operator</th>
+                            <th class="fw-semibold">traktor gear (Speed)</th>
+                            <th class="fw-semibold">tank type</th>
+                            <th class="fw-semibold">pressure</th>
+                            <th class="text-uppercase fw-semibold">rpm</th>
+                            <th class="fw-semibold">time / 100m</th>
+                            <th class="fw-semibold">l/min</th>
+                            <th class="fw-semibold">l/min total</th>
+                            <th class="fw-semibold">tank size</th>
+                            <th class="fw-semibold">tank ratio</th>
+                            <th class="fw-semibold">l/ha</th>
+                            <th class="fw-semibold">hectares / tank</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-capitalize text-center">
+                       <tr>
+                            <td>massie fergusson</td>
+                            <td>donald</td>
+                            <td class="text-tranformation-none">3 de L</td>
+                            <td>superblow</td>
+                            <td>8</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>1000</td>
+                            <td>1.5</td>
+                            <td>15.7</td>
+                            <td>1.3</td>
+                       </tr> 
+                    </tbody>
+                </table>
+            </div>
+            <div class="footer w-100 d-flex justify-content-between">
+                <div class="section-1-2 d-flex flex-column justify-content-between">
+                    <div id="section-1" class="d-inline-flex justify-content-between w-100">
+                        <div class="d-flex flex-column">
+                            <span class="ps-1">Jaco Botha of Laeveld Agrochem</span>
+                            <hr class="m-0">
+                            <span class="fw-semibold text-capitalize ps-1 mt-1">Recommended By:</span>
+                        </div>
+                        <div class="d-inline-flex justify-content-between">
+                            <div class="d-inline-flex flex-column">
+                                <span class="d-block"></span>
+                                <hr class="m-0">
+                                <span class="fw-semibold mt-1">Date:</span>
+                            </div>
+                            <div class="d-inline-flex flex-column">
+                                <span class="d-block">Gert Visser</span>
+                                <hr class="m-0">
+                                <span class="fw-semibold mt-1">Overseen By</span>
+                            </div>
+                            <div class="d-inline-flex flex-column">
+                                <span class="d-block"></span>
+                                <hr class="m-0">
+                                <span class="fw-semibold mt-1">Signature:</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="section-2" class="d-flex justify-content-between">
+                        <div class="d-flex flex-column ms-1">
+                            <span class="fw-semibold text-capitalize">lock store & wash hands</span>
+                            <div class="d-inline-block align-self-start border border-black p-1 ms-1 mt-2">
+                                <img src="imgs/lock.png" alt="lock store" height="30px" width="30px" class="border border-black rounded-1 p-2">
+                                <img src="imgs/gloves-safety.png" alt="gloves-safety" height="30px" width="30px" class="border border-black rounded-1">
+                                <img src="imgs/pic-3.png" alt="safety" height="30px" width="25px">
+                            </div>
+                        </div>
+                        <div class="d-inline-flex justify-content-between">
+                            <div class="d-inline-flex flex-column">
+                                <span class="fw-semibold text-capitalize mb-3">mixing gear</span>
+                                <div class="d-inline-flex">
+                                    <div class="img-container rounded-circle bg-primary me-1">
+                                        <img src="imgs/boots-safety.png" alt="boots safety" height="30px" width="30px">
+                                    </div>
+                                    <div class="img-container rounded-circle bg-primary me-1">
+                                        <img src="imgs/Goggles-safety.png" alt="goggles safety" height="30px" width="30px">
+                                    </div>
+                                    <div class="img-container rounded-circle bg-primary d-inline-flex justify-content-center align-items-center">
+                                        <img src="imgs/safety.png" alt="safety" height="20px" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-inline-flex flex-column">
+                                <span class="fw-semibold text-capitalize mb-3">application gear</span>
+                                <div class="d-inline-flex">
+                                    <div class="img-container rounded-circle bg-primary me-1">
+                                        <img src="imgs/Hat-safety.png" alt="hat safety" class="rounded-circle bg-primary" height="30px" width="30px">
+                                    </div>
+                                    <div class="img-container rounded-circle bg-primary me-1">
+                                        <img src="imgs/PPE-safety.png" alt="PPE safety" class="rounded-circle bg-primary" height="30px" width="30px">
+                                    </div>
+                                    <div class="img-container rounded-circle bg-primary d-inline-flex justify-content-center align-items-center">
+                                        <img src="imgs/headphones-safety.png" alt="headphones safety" class="rounded-circle bg-primary" height="25px" width="25px">
+                                    </div>                              
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="section-3" class="d-inline-flex align-items-center justify-content-center">
+                    <img src="imgs/laeveld-agrochem-logo.png" alt="laeveld agrochem logo" height="50px" width="50px">
+                </div>
+            </div>
         </div>
     </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
