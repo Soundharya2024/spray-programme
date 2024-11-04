@@ -132,6 +132,36 @@ body {
     width: 30px;
 }
 
+/* Custom scrollbar starts*/
+/* width */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+.table-container::-webkit-scrollbar {
+    height: 5px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track, .table-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb, .table-container::-webkit-scrollbar-thumb {
+    background: #CED4DA;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #CCCCCC;
+}
+.table-container::-webkit-scrollbar-thumb:hover {
+    background: #CCCCCC;
+    cursor: pointer;
+}
+/* Custom scrollbar ends*/
+
 @media (min-width: 576px) {
     .order-sm-6 {
         order: 6 !important;
